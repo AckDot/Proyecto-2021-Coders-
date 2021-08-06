@@ -7,3 +7,6 @@ nombre descriptivo como :**pie de pagina**.
 ![alt text][logo]
 
 [logo]: https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif "Logo Title Text 2"
+
+05/08/2021 // 20:29 Se creo archivos html y css , ademas se añadio los recursos visuales del proyecto en la carpeta images . "Rodraks"
+
