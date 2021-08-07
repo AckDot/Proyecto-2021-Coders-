@@ -11,4 +11,5 @@ nombre descriptivo como :**pie de pagina**.
 05/08/2021 // 20:29 Se creo archivos html y css , ademas se añadio los recursos visuales del proyecto en la carpeta images . "Rodraks".
 
 07/08 cambio de prueba para añadir un commit extra desde la rama content , para luego fusionar con la rama develop.
+comentario extra para añadir mas commits y mantener consistencia en git: falta el footer y el header.
 
