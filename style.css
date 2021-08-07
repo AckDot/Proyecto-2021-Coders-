@@ -1,9 +1,85 @@
-header{
-/*falta llenar esta parte :u */
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  background: hsl(218, 28%, 13%);
+  font-family: Open Sans;
+  font-size: 14px;
 }
-body{
-
+header {
+  /*falta llenar esta parte :u */
+  background: hsl(217, 28%, 15%);
 }
-footer{
-/*falta llenar esta parte :u */
+.contenido {
+  color: white;
+}
+.introduccion {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  height: auto;
+  margin-left: 10%;
+}
+.ilustracion {
+  width: 70%;
+  height: auto;
+}
+.descripcion {
+  width: 35%;
+  height: auto;
+}
+.descripcion h3 {
+  color: white;
+  font-size: 34px;
+  font-family: Raleway;
+}
+.descripcion p {
+  color: white;
+}
+.descripcion a {
+  color: rgba(67, 236, 236, 0.979);
+  font-size: 15px;
+}
+.opiniones {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 14px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.sujetos {
+  background-color: hsl(219, 30%, 18%);
+  width: 30%;
+  border-radius: 2%;
+  padding: 2% 2% 2% 2%;
+  height: auto;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.sujetos h2 {
+  font-size: 14px;
+  font-size: Raleway;
+}
+.sujetos p {
+  font-size: 14px;
+  font-family: Open Sans;
+}
+.fotos p {
+  font-size: 9px;
+  font-family: Open Sans;
+}
+.fotos {
+  display: flex;
+  margin-left: 2%;
+  justify-content: flex-start;
+  align-items: center;
+}
+.fotos img {
+  border-radius: 50%;
+  width: 40%;
+  height: auto;
+}
+footer {
+  /*falta llenar en esta version*/
+  background: hsl(216, 53%, 9%);
 }
