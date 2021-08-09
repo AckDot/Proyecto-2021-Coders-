@@ -39,9 +39,17 @@ header {
   color: rgba(67, 236, 236, 0.979);
   font-size: 15px;
 }
+#fyloworks:hover {
+  color: white;
+}
+#fyloworks svg:hover {
+  color: white !important;
+  transition: 0.75ms;
+}
 .opiniones {
   display: flex;
   align-items: center;
+  position: absolute;
   justify-content: space-around;
   font-size: 14px;
   margin-left: 10%;
