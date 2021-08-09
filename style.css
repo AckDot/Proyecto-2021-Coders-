@@ -6,9 +6,9 @@
 }
 
 body{
-    max-width: 1440px;
+    max-width: 1920px;
     margin: auto;
-    background: hsl(217, 28%, 15%);
+    background: hsl(218, 28%, 13%);
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     color: rgb(255, 255, 255);
@@ -31,9 +31,10 @@ li{
 
 header{
     width: 100%;
-    height: 160vh;
+    height: 150vh;
     display: flex;
     flex-direction: column;
+    background-color: hsl(217, 28%, 15%);
     background-image: url('./images/bg-curvy-desktop.svg');
     background-repeat: no-repeat;
     background-size: contain;
@@ -99,6 +100,10 @@ nav{
     width: 100%;
     height: 50%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .textoHeder p, h2{
@@ -107,17 +112,130 @@ nav{
 
 .btnHeader{
     width: 25%;
-    height: 8%;
+    height: 10%;
     border-radius: 200px;
     outline: none;
     border: none;
     background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
     color: white;
+    cursor: pointer;
 }
 
-main{
-/*falta llenar esta parte :u */
+.caracteristicas{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-footer{
-/*falta llenar esta parte :u */
+
+.caracteristicasFilas{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.fila{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card{
+    width:40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card h3{
+    margin: 20px 0 10px 0;
+}
+
+
+.introduccion {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  height: auto;
+  margin-left: 10%;
+}
+.ilustracion {
+  width: 70%;
+  height: auto;
+}
+.descripcion {
+  width: 35%;
+  height: auto;
+}
+.descripcion h3 {
+  color: white;
+  font-size: 34px;
+  font-family: Raleway;
+}
+.descripcion p {
+  color: white;
+}
+.descripcion a {
+  color: rgba(67, 236, 236, 0.979);
+  font-size: 15px;
+}
+#fyloworks:hover {
+  color: white;
+}
+#fyloworks svg:hover {
+  color: white !important;
+  transition: 0.75ms;
+}
+.opiniones {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  justify-content: space-around;
+  font-size: 14px;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+.sujetos {
+  background-color: hsl(219, 30%, 18%);
+  width: 30%;
+  border-radius: 2%;
+  padding: 2% 2% 2% 2%;
+  height: auto;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.sujetos h2 {
+  font-size: 14px;
+  font-size: Raleway;
+}
+.sujetos p {
+  font-size: 14px;
+  font-family: Open Sans;
+}
+.fotos p {
+  font-size: 9px;
+  font-family: Open Sans;
+}
+.fotos {
+  display: flex;
+  margin-left: 2%;
+  justify-content: flex-start;
+  align-items: center;
+}
+.fotos img {
+  border-radius: 50%;
+  width: 40%;
+  height: auto;
+}
+footer {
+  /*falta llenar en esta version*/
+  background: hsl(216, 53%, 9%);
 }
