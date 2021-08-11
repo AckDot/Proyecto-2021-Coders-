@@ -291,7 +291,6 @@ nav{
     filter: invert(100%);
   }
   footer {
-    /*llenado en esta version*/
     background: hsl(216, 53%, 9%);
     display: flex;
     width: 100%;
