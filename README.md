@@ -13,3 +13,7 @@ nombre descriptivo como :**pie de pagina**.
 07/08 cambio de prueba para añadir un commit extra desde la rama content , para luego fusionar con la rama develop.
 comentario extra para añadir mas commits y mantener consistencia en git: falta el footer y el header.
 
+<<<Trabajo finalizado>>>
+
+![Alt Text](https://media.giphy.com/media/LmxyviwEMerCc1HUmF/giphy.gif)
+
