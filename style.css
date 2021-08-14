@@ -196,7 +196,6 @@ nav{
 .opiniones {
   display: flex;
   align-items: center;
-  position: absolute;
   justify-content: space-around;
   font-size: 14px;
   margin-left: 10%;
