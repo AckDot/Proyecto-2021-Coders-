@@ -7,6 +7,7 @@
 
 body{
     max-width: 1920px;
+    width: 100%;
     margin: auto;
     background: hsl(218, 28%, 13%);
     font-size: 14px;
@@ -90,6 +91,9 @@ nav{
 .imgHeader {
     width: 100%;
     height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .imgHeader img{
@@ -161,18 +165,29 @@ nav{
 
 .introduccion {
   display: flex;
-  align-items: center;
-  width: 75%;
+  width: 100%;
   height: auto;
-  margin-left: 10%;
+  justify-content: space-between;
 }
 .ilustracion {
-  width: 70%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: auto;
 }
+
+.ilustracion img{
+  width: 90%;
+}
+
 .descripcion {
-  width: 35%;
+  width: 50%;
   height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
 }
 .descripcion h3 {
   color: white;
@@ -237,4 +252,98 @@ nav{
 footer {
   /*falta llenar en esta version*/
   background: hsl(216, 53%, 9%);
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px){
+  .contenidoHeader{
+    width: 80%;
+    margin: auto;
+
+  }
+
+  .imgHeader {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imgHeader img{
+    width: 100%;
+    height: 90%;
+  }
+
+  .btnHeader{
+    width: 50%;
+  } 
+
+  .caracteristicas{
+    height: 150vh;
+  }
+  
+  .fila{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .card{
+    width: 100%;
+  }
+
+  .introduccion{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ilustracion{
+    width: 100%;
+  }
+
+  .descripcion{
+    width: 100%;
+    align-items: center;
+    justify-content: center
+  }
+  .descripcion h3{
+    text-align: center;
+  }
+
+  .comillas {
+    width: 100%;
+
+    display: flex;
+    justify-content: left;
+  }
+
+  .comillas img{
+    width: 50px;
+
+  }
+
+  .opiniones{
+    position: relative;
+    flex-direction: column;
+  }
+
+  .sujetos{
+    z-index: 100;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
 }
