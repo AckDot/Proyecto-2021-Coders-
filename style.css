@@ -115,7 +115,7 @@ nav{
 }
 
 .btnHeader{
-    width: 25%;
+    width: 40%;
     height: 10%;
     border-radius: 200px;
     outline: none;
@@ -265,6 +265,14 @@ footer {
 
 
 @media (max-width: 1000px){
+  body{
+    min-width: 375px;
+  }
+
+  header{
+    background-image: url('./images/bg-curvy-mobile.svg');
+  }
+
   .contenidoHeader{
     width: 80%;
     margin: auto;
@@ -346,4 +354,17 @@ footer {
     margin-bottom: 50px;
   }
 
+}
+
+@media (max-width: 453px){
+  .navLogo{
+    width: 30%;
+}
+  .navLogo img{
+    width: 100%;
+}
+
+.navList{
+  width: 70%;
+}
 }
