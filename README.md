@@ -19,4 +19,4 @@ comentario extra para añadir mas commits y mantener consistencia en git: falta 
 
 ![Alt Text](https://media.giphy.com/media/LmxyviwEMerCc1HUmF/giphy.gif)
 
-Mejoras a desarrollar : error 404 , el responsive , la version mobil , el modo activo de algunos botones
+Mejoras a desarrollar : error 404 , el responsive , la version mobil , el modo activo de algunos botones.
