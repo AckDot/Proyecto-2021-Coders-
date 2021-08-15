@@ -291,44 +291,45 @@ h2 {
     rgba(2, 0, 36, 1) 100%
   );
 }
-.box1 {
-  display: inline-table;
-  height: auto;
-  width: 18%;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 50px;
-}
-.box0{
-  display: contents;
+
+footer{
   width: 100%;
-  height: auto;
-}
-#Capa1 {
-  display: inline;
-  width: 40px;
-  margin-left: 12px;
-  height: auto;
-  fill: aliceblue !important;
-}
-#Capa1:hover{
-  fill: aquamarine!important;
-  cursor: pointer;
-}
-footer {
-  background: hsl(216, 53%, 9%);
-  width: 100%;
-  height: 20%;
-  padding-top: 130px;
-  padding-bottom: 2%;
-  margin-top: 5px;
-  bottom: 0%;
-}
-.filafooter{
+  height: 80vh;
   display: flex;
-  margin: 0 auto;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  background: hsl(216, 53%, 9%);
+}
+
+.logoFooter{
+  padding-left: 0 0 0 60px ;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.contenidoFooter{
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: space-around;
+  padding:30px  60px;
+}
+
+.column{
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.column img{
+  width: 70%;
+  color: rgb(255, 255, 255);
+}
+
+.column li{
+  margin: 15px 0;
 }
 
 /*****************************************************************************************/
@@ -424,11 +425,29 @@ footer {
     margin-bottom: 50px;
   }
 
+  footer{
+    height: auto;
+    padding: 120px 0 0 0;
+  }
+
+  .logoFooter{
+    padding-left: 20px;
+  }
+
+  .contenidoFooter{
+    flex-direction: column;
+  }
+
+  .column{
+    width: 100%;
+    justify-content: flex-start;
+  }
 
 
 }
 
 @media (max-width: 453px){
+  
   .navLogo{
     width: 30%;
 }
