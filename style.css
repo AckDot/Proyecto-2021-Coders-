@@ -1,4 +1,4 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,61 +6,64 @@
 }
 
 body{
-    max-width: 1920px;
-    width: 100%;
-    margin: auto;
-    background: hsl(218, 28%, 13%);
-    font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
-    color: rgb(255, 255, 255);
+  max-width: 1920px;
+  min-width: 357px;
+  width: 100%;
+  margin: auto;
+  background: hsl(218, 28%, 13%);
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(255, 255, 255);
 }
 
-a {
+a{
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
-h2 {
-  font-family: "Raleway", sans-serif;
+
+h2{
+  font-family: 'Raleway', sans-serif;
   font-size: 40px;
 }
 
-li {
+li{
   list-style: none;
 }
 
-header {
+
+header{
   width: 100%;
   height: 150vh;
   display: flex;
   flex-direction: column;
   background-color: hsl(217, 28%, 15%);
-  background-image: url("./images/bg-curvy-desktop.svg");
+  background-image: url('./images/bg-curvy-desktop.svg');
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: bottom;
+  background-position:bottom;
 }
 
-nav {
+nav{ 
   width: 100%;
   height: 15%;
   display: flex;
   padding: 30px;
 }
 
-.navLogo {
+.navLogo{
   width: 50%;
   height: 100%;
   display: flex;
   align-items: center;
 }
 
-.navList {
+.navList{
   width: 50%;
   height: 100%;
 }
 
-.navList ul {
+.navList ul{
   width: 100%;
   height: 100%;
   display: flex;
@@ -68,38 +71,38 @@ nav {
   align-items: center;
 }
 
-.navList a {
+.navList a{
   margin-right: 20px;
 }
 
-.navList a:hover {
+.navList a:hover{
   text-decoration: underline;
 }
 
-.contenedorHeader {
+.contenedorHeader{
   width: 100%;
   height: 135vh;
 }
 
-.contenidoHeader {
+.contenidoHeader{
   width: 50%;
   height: 100%;
   margin: auto;
 }
 
 .imgHeader {
-    width: 100%;
-    height: auto;
-    display: flexbox;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.imgHeader img {
+.imgHeader img{
   width: 100%;
   height: 100%;
 }
-.textoHeder {
+.textoHeder{
   width: 100%;
   height: 50%;
   text-align: center;
@@ -109,12 +112,11 @@ nav {
   align-items: center;
 }
 
-.textoHeder p,
-h2 {
+.textoHeder p, h2{
   margin-bottom: 30px;
 }
 
-.btnHeader {
+.btnHeader{
   width: 25%;
   height: 10%;
   border-radius: 200px;
@@ -125,7 +127,7 @@ h2 {
   cursor: pointer;
 }
 
-.caracteristicas {
+.caracteristicas{
   width: 100%;
   height: 100vh;
   display: flex;
@@ -133,14 +135,14 @@ h2 {
   align-items: center;
 }
 
-.caracteristicasFilas {
+.caracteristicasFilas{
   width: 70%;
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.fila {
+.fila{
   width: 100%;
   height: 50%;
   display: flex;
@@ -148,8 +150,8 @@ h2 {
   align-items: center;
 }
 
-.card {
-  width: 40%;
+.card{
+  width:40%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -159,91 +161,95 @@ h2 {
   box-sizing: border-box;
 }
 
-.card h3 {
-  margin: 20px 0 10px 0;
+.card h3{
+  margin: 20px 0 10px 0 ; 
 }
 
 .introduccion {
-  display: flex;
-  width: 80%;
-  height: auto;
-  margin: 0 auto;
-  justify-content: center;
+display: flex;
+width: 100%;
+height: auto;
+justify-content: space-between;
 }
 .ilustracion {
-  width: 45%;
-  height: auto;
-  margin-right: auto;
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+height: auto;
 }
 
 .ilustracion img{
-  width: 100%;
+width: 90%;
 }
 
 .descripcion {
-  width: 40%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 30px;
+width: 50%;
+height: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 30px;
 }
 .descripcion h3 {
-  color: white;
-  font-size: 34px;
-  font-family: Raleway;
+color: white;
+font-size: 34px;
+font-family: Raleway;
 }
 .descripcion p {
-  color: white;
+color: white;
 }
 .descripcion a {
-  color: rgba(67, 236, 236, 0.979);
-  font-size: 15px;
+color: rgba(67, 236, 236, 0.979);
+font-size: 15px;
 }
 #fyloworks:hover {
-  color: white;
+color: white;
 }
 #fyloworks svg:hover {
-  color: white !important;
-  transition: 0.75ms;
+color: white !important;
+transition: 0.75ms;
 }
 .opiniones {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  font-size: 14px;
-  margin-left: 10%;
-  margin-right: 10%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+font-size: 14px;
+margin-left: 10%;
+margin-right: 10%;
+
 }
 .sujetos {
-  background-color: hsl(219, 30%, 18%);
-  width: 30%;
-  border-radius: 2%;
-  padding: 2% 2% 2% 2%;
-  height: auto;
-  margin-left: 1%;
-  margin-right: 1%;
+background-color: hsl(219, 30%, 18%);
+width: 30%;
+border-radius: 2%;
+padding: 2% 2% 2% 2%;
+height: auto;
+margin-left: 2%;
+margin-right: 2%;
 }
 .sujetos h2 {
-  font-size: 14px;
-  font-size: Raleway;
+font-size: 14px;
+font-size: Raleway;
 }
 .sujetos p {
-  font-size: 14px;
-  font-family: Open Sans;
+font-size: 14px;
+font-family: Open Sans;
 }
 .fotos p {
-  font-size: 9px;
-  font-family: Open Sans;
+font-size: 9px;
+font-family: Open Sans;
 }
 .fotos {
-  display: flex;
-  align-items: center;
+display: flex;
+margin-left: 2%;
+justify-content: flex-start;
+align-items: center;
 }
 .fotos img {
-  border-radius: 50%;
-  width: 40%;
-  height: auto;
+border-radius: 50%;
+width: 40%;
+height: auto;
 }
 .box {
   position: relative;
@@ -339,9 +345,6 @@ footer {
 
 
 @media (max-width: 1000px){
-  body{
-    margin:0 auto;
-  }
   .contenidoHeader{
     width: 80%;
     margin: auto;
@@ -349,10 +352,11 @@ footer {
   }
 
   .imgHeader {
-    width: 80%;
-    height: auto;
+    width: 100%;
+    height: 50%;
     display: flex;
-    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
   }
 
   .imgHeader img{
@@ -365,12 +369,12 @@ footer {
   } 
 
   .caracteristicas{
-    height: 120vh;
+    height: 150vh;
   }
-  
+
   .fila{
     height: 50%;
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -378,7 +382,6 @@ footer {
 
   .card{
     width: 100%;
-    height: auto;
   }
 
   .introduccion{
@@ -388,10 +391,7 @@ footer {
   }
 
   .ilustracion{
-    display: contents;
     width: 100%;
-    height: auto;
-    margin : 0 auto ;
   }
 
   .descripcion{
@@ -425,12 +425,13 @@ footer {
     width: 100%;
     margin-bottom: 50px;
   }
+
   #boton{
     padding: 0 auto;
-     width: 90%;
-     margin-bottom: 2px;
-     text-align: center;
-     font-size: smaller;
+    width: 90%;
+    margin-bottom: 2px;
+    text-align: center;
+    font-size: smaller;
   }
   #boton1{
     padding: 0 auto;
@@ -444,6 +445,7 @@ footer {
     width: 100%;
     height: max-content;
   }
+
   .filafooter{
     display: flex;
     flex-direction: column;
@@ -451,16 +453,31 @@ footer {
     height: 600px;
     margin: 0;
   }
+
   .box1{
     width: auto;
     display: block;
     text-align: left;
     height: 100px;
   }
+
   #cajalogos{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+}
+
+@media (max-width: 453px){ 
+  .navLogo{
+    width: 30%;
+  }
+  .navLogo img{
+    width: 100%;
+  }
+
+  .navList{
+  width: 70%;
   }
 }
