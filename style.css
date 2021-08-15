@@ -305,7 +305,7 @@ footer{
 }
 
 .logoFooter{
-  padding-left: 60px;
+  padding-left: 0 0 0 60px ;
   width: 100%;
   height: 40%;
   display: flex;
@@ -432,11 +432,29 @@ footer{
     margin-bottom: 50px;
   }
 
+  footer{
+    height: auto;
+    padding: 120px 0 0 0;
+  }
+
+  .logoFooter{
+    padding-left: 20px;
+  }
+
+  .contenidoFooter{
+    flex-direction: column;
+  }
+
+  .column{
+    width: 100%;
+    justify-content: flex-start;
+  }
 
 
 }
 
 @media (max-width: 453px){
+  
   .navLogo{
     width: 30%;
 }
