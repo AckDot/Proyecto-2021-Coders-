@@ -170,13 +170,15 @@ h2 {
 .introduccion {
   display: flex;
   width: 100%;
+  justify-content: center;
+  align-items: center;
   height: auto;
-  justify-content: space-between;
 }
 .ilustracion {
-  width: 45%;
+  width: 40%;
   height: auto;
-  margin-right: auto;
+  padding: 0;
+  margin: 0;
 }
 
 .ilustracion img{
@@ -184,11 +186,11 @@ h2 {
 }
 
 .descripcion {
-  width: 50%;
+  width: 30%;
   height: auto;
-  display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: left;
   padding: 30px;
 }
 .descripcion h3 {
@@ -382,10 +384,8 @@ footer {
   }
 
   .introduccion{
-    margin: 50px 0 50px 0;
+    margin: 0 auto;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 
   .ilustracion{
