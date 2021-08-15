@@ -126,6 +126,9 @@ nav{
   color: white;
   cursor: pointer;
 }
+.btnHeader:hover{
+  background: hsl(176, 68%, 64%)
+}
 
 .caracteristicas{
   width: 100%;
@@ -267,6 +270,8 @@ height: auto;
   font-size: medium;
 }
 #boton {
+  outline: none;
+  border: none;
   width: 100%;
   margin: 0 auto;
   top: 20px;
@@ -278,6 +283,9 @@ height: auto;
   text-align: center;
 }
 #boton1 {
+  cursor: pointer;
+  outline: none;
+  border: none;
   top: 20px;
   left: 50px;
   border-radius: 20px;
@@ -293,6 +301,11 @@ height: auto;
     rgba(2, 0, 36, 1) 100%
   );
 }
+
+#boton1:hover{
+  background: hsl(176, 68%, 64%)
+}
+
 .box1 {
 display:flexbox;
   height: min-content;
